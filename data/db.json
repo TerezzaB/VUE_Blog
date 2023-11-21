@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Welcome here",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor sodales vehicula. Nullam ante quam, egestas ac odio et, bibendum cursus purus.",
+            "tags": [ "webdev", "coding", "news" ]
+        },
+        {
+            "id": 2,
+            "title": "Welcome here 2",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor sodales vehicula. Nullam ante quam, egestas ac odio et, bibendum cursus purus.",
+            "tags": [ "some other tag", "tag" ]
+        },
+        {
+            "id": 3,
+            "title": "Welcome here 3",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor sodales vehicula. Nullam ante quam, egestas ac odio et, bibendum cursus purus.",
+            "tags": [ "webdev", "news" ]
+        },
+        {
+            "id": 4,
+            "title": "Welcome here 4",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor sodales vehicula. Nullam ante quam, egestas ac odio et, bibendum cursus purus.",
+            "tags": [ "webdev", "coding" ]
+        }
+    ]
+}
