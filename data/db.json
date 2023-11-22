@@ -10,7 +10,7 @@
             "id": 2,
             "title": "Welcome here 2",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor sodales vehicula. Nullam ante quam, egestas ac odio et, bibendum cursus purus.",
-            "tags": [ "some other tag", "tag" ]
+            "tags": [ "tagss", "tag" ]
         },
         {
             "id": 3,
