@@ -11,31 +11,16 @@
 
 <script>
 // @ is an alias to /src
-
-import { ref } from 'vue'
 import PostList from '../components/PostList.vue'
+import getPosts from '../composables/getPosts.js'
 
 export default {
   name: 'HomeView',
   components: { PostList },
   setup() {
     //will be run before every life cycle hooks (mounted/created etc)
-    const posts = ref([])
-    const error = ref(null)
-  
-    const load = async () => {
-      try {
-        let data = await fetch('http://localhost:3000/posts')
-        if (!data.ok) {
-          throw Error('No Data available')
-        }
-        posts.value = await data.json()
-      }
-      catch(err) {
-        error.value = err.message
-        console.log(error.value)
-      }
-    }
+
+    const { posts, error, load } = getPosts()
 
     load()
     return { posts, error }
