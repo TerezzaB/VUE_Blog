@@ -23,5 +23,10 @@ export default {
     }
 }
 </script>
+
 <style scoped>
+    .post { max-width: 1200px; margin: 0 auto; }
+    .post div { color: #444; line-height: 1.5em; margin-top: 40px; }
+    .post span { line-height: 40px; }
+    .pre { white-space: pre-wrap; }
 </style>
