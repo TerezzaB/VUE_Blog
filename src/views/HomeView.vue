@@ -20,6 +20,7 @@ export default {
   setup() {
     //will be run before every life cycle hooks (mounted/created etc)
 
+    //now i can use any of these -> { posts, error, load } inside this component
     const { posts, error, load } = getPosts()
 
     load()
