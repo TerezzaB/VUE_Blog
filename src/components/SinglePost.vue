@@ -27,5 +27,5 @@ export default {
 
 
 <style scoped>
-
+.post a { text-decoration: none; color: #0d3c61;  font-size: 20px;}
 </style>

@@ -1,8 +1,10 @@
 <template>
-    <div class="post-list">
-        <div v-for="post in posts" :key="post.id">
-            <SinglePost :post="post"/>
-        </div>
+    <div v-for="post in posts" :key="post.id">
+        <P-Card class="content-card">
+            <template #content>
+                <p><SinglePost :post="post"/></p>
+            </template>
+        </P-Card>
     </div>
 </template>
 
@@ -23,4 +25,6 @@ export default {
 </script>
 
 <style scoped>
+.content-card { width:30em; margin: 25px auto; transition: transform 0.3s ease }
+.content-card:hover { transform: scale(1.02); cursor: pointer; }
 </style>
